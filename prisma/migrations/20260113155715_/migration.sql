@@ -1,0 +1,11 @@
+-- AlterTable
+ALTER TABLE "Project" ADD COLUMN     "userId" TEXT;
+
+-- CreateTable
+CREATE TABLE "Usage" (
+    "key" TEXT NOT NULL,
+    "points" INTEGER NOT NULL,
+    "expiry" TIMESTAMP(3),
+
+    CONSTRAINT "Usage_pkey" PRIMARY KEY ("key")
+);

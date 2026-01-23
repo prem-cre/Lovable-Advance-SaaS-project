@@ -1,0 +1,15 @@
+import { getUsageStatus } from "@/lib/usage";
+import { createTRPCRouter, protectedProcedure } from "@/trpc/init";
+
+export const usageRouter = createTRPCRouter({
+    status: protectedProcedure.query(async () => {
+        try {
+            const result = await getUsageStatus();
+            console.log("✅ Usage status fetched:", result);
+            return result;
+        } catch (error) {
+            console.error("❌ Error fetching usage status:", error);
+            return null;
+        }
+    }),
+});
