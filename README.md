@@ -539,7 +539,7 @@ This project is proprietary. All rights reserved.
 
 ---
 
-## 🙏 Acknowledgments
+## 🙏
 
 - **Inngest** - Background job orchestration and agent toolkit
 - **E2B** - Cloud sandbox infrastructure
@@ -552,17 +552,12 @@ This project is proprietary. All rights reserved.
 ## 📧 Support
 
 For questions or issues:
-
-- **GitHub Issues**: [Create an issue](https://github.com/your-repo/issues)
-- **Email**: support@yourdomain.com
-- **Documentation**: [Full docs](https://docs.yourdomain.com)
+- **Email**: mahantypremkumar2007@gmail.com
 
 ---
 
 <div align="center">
 
 **Built with ❤️ using Next.js, React, and AI**
-
-[Demo](https://demo.yourdomain.com) • [Documentation](https://docs.yourdomain.com) • [Blog](https://blog.yourdomain.com)
 
 </div>
