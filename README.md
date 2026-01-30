@@ -1,4 +1,4 @@
-# AI-Powered SaaS Application Builder
+# AI-Powered SaaS Website Generator
 
 <div align="center">
 
